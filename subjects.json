@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "subject": "Bangla",
+        "image": "https://cutt.ly/9N36Cw3",
+        "price": 55,
+        "rating": 4.5,
+        "description": "Bengali ranks among the top ten most spoken languages in the world. Known to its native speakers as Bangla, it’s the only national and official language of Bangladesh, where ethnic Bengali peoples comprise 98% of the population."
+    },
+    {
+        "id": "2",
+        "subject": "English",
+        "image": "https://cutt.ly/hN8qMqw",
+        "price": 80,
+        "rating": 4.9,
+        "description": "We’ve been teaching English for more than 75 years and have helped more than 100 million people in 100 different countries improve their English skills and build their confidence.You can learn English by taking face-to-face lessons in our teaching centres or at home via our online courses and learning tools. We can demonstrate your progress by providing you with internationally recognised proficiency tests."
+    },
+    {
+        "id": "3",
+        "subject": "Math",
+        "image": "https://ibb.co/pRsDTht",
+        "price": 90,
+        "rating": 4.4,
+        "description": "The integrated pathway of courses (Math 1, 2, and 3) covers the same topics as the traditional pathway (Algebra 1, Geometry, and Algebra 2). Math 1, Math 2, and Math 3 each contain elements of algebra, geometry, and statistics, so the content is more interwoven"
+    },
+    {
+        "id": "4",
+        "subject": "Islamic Studies",
+        "image": "https://cutt.ly/jN8e8r5",
+        "price": 85,
+        "rating": 4.6,
+        "description": "Almost as soon as the Arab armies of Islam conquered new lands, they began erecting mosques and palaces and commissioning other works of art as expressions of their faith and culture. Many aspects of religious practice in Islam also emerged and were codified. The religious practice of Islam, which literally means 'to submit to God', is based on tenets that are known as the Five Pillars (arkan), to which all members of the Islamic community (umma) should adhere."
+    },
+    {
+        "id": "5",
+        "subject": "Chemistry",
+        "image": "https://cutt.ly/dN8rsDw",
+        "price": 75,
+        "rating": 4.3,
+        "description": "Carbon can form covalent bonds with itself and other elements to create a mind-boggling array of structures. In organic chemistry, we will learn about the reactions chemists use to synthesize crazy carbon based structures, as well as the analytical methods to characterize them. We will also think about how those reactions are occurring on a molecular level with reaction mechanisms. Simply put, organic chemistry is like building with molecular Legos. Let's make some beautiful organic molecules!"
+    },
+    {
+        "id": "6",
+        "subject": "Science",
+        "image": "https://cutt.ly/1N8rniT",
+        "price": 88,
+        "rating": 4.4,
+        "description": "Science is a multi-disciplined academic field for students with the following subject combinations in class 12th – PCM (Physics, Chemistry, Mathematics), PCB (Physics, Chemistry, Biology), and PCMB (Physics, Chemistry, Mathematics, Biology). Students looking forward to a career in Science have a wide range of options at both UG (undergraduate) and PG (postgraduate) levels. Students can choose to pursue courses such as BSc (Bachelor of Science), MSc (Master of Science) and PhD (Doctor of Philosophy) in a variety of Science branches/ specialisations such as"
+    }
+]
