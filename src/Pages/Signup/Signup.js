@@ -63,7 +63,7 @@ const Signup = () => {
                             <label className="text-sm">Password</label>
                             <input type="password" name="password" placeholder="*****" className="w-full px-3 py-2 border rounded-md border-gray-300 bg-gray-50 text-gray-800 focus:border-sky-600" />
                         </div>
-                        <button type="submit" className="w-full px-8 py-3 font-semibold rounded-md bg-sky-600 text-gray-50">Sign Up</button>
+                        <button className="w-full px-8 py-3 font-semibold rounded-md bg-sky-600 text-gray-50">Sign Up</button>
                     </form>
                 </div>
             </div>

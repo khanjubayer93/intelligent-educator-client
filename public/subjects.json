@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "title": "Bangla",
         "image": "https://cutt.ly/9N36Cw3",
         "price": 55,
@@ -8,7 +7,6 @@
         "description": "Bengali ranks among the top ten most spoken languages in the world. Known to its native speakers as Bangla, it is the only national and official language of Bangladesh, where ethnic Bengali peoples comprise 98% of the population."
     },
     {
-        "id": 2,
         "title": "English",
         "image": "https://cutt.ly/hN8qMqw",
         "price": 80,
