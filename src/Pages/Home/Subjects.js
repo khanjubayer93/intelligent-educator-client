@@ -2,16 +2,17 @@
 import React, { useEffect, useState } from 'react';
 
 const Subjects = () => {
-    const [subject, setSubject] = useState([]);
+    const [subject, setSubject] = useState([])
+
     useEffect(() => {
         fetch('subjects.json')
             .then(res => res.json())
-            .then(data => console.log(data))
-        
-    }, []);
+            .then(data => setSubject(data))
+    }, [])
+
     return (
         <div>
-            
+            <p>total subject: {subject.length}</p>
         </div>
     );
 };
