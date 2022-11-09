@@ -1,18 +1,25 @@
 
 import React, { useEffect, useState } from 'react';
+import SubjectCard from './SubjectCard';
 
 const Subjects = () => {
-    const [subject, setSubject] = useState([])
+    const [subjects, setSubjects] = useState([])
 
     useEffect(() => {
         fetch('subjects.json')
             .then(res => res.json())
-            .then(data => setSubject(data))
+            .then(data => setSubjects(data))
     }, [])
 
     return (
-        <div>
-            <p>total subject: {subject.length}</p>
+        <div className=''>
+            <p>total subject: {subjects.length}</p>
+            <div className='grid grid-cols-3 mx-auto justify-items-center'>
+                {
+                    subjects.map(subj => <SubjectCard
+                        subject={subj}></SubjectCard>)
+                }
+            </div>
         </div>
     );
 };
