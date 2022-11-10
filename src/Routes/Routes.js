@@ -3,6 +3,7 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import Signup from "../Pages/Signup/Signup";
+import TuitionDetails from "../Pages/TuitionDetails/TuitionDetails";
 
 const router = createBrowserRouter([
     {
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
             {
                 path: '/login',
                 element: <Login></Login>
+            },
+            {
+                path: '/details/:id',
+                element: <TuitionDetails></TuitionDetails>,
+                loader: ({ params }) => fetch(`https://intelligent-educator-server.vercel.app/subjects/${params.id}`)
             },
         ]
     }

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGoogle, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider';
 import { GoogleAuthProvider } from 'firebase/auth';
 
@@ -29,6 +29,7 @@ const Signup = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user)
+                
             })
             .catch(error => console.error(error.message))
     }
