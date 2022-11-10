@@ -6,7 +6,7 @@ const Subjects = () => {
     const [subjects, setSubjects] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/subjects')
+        fetch('https://intelligent-educator-server.vercel.app/subjects')
             .then(res => res.json())
             .then(data => setSubjects(data))
     }, [])
