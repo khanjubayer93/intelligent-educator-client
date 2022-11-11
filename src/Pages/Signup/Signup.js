@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGoogle, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { Link, Navigate } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider';
 import { GoogleAuthProvider } from 'firebase/auth';
 
@@ -9,6 +9,7 @@ import { GoogleAuthProvider } from 'firebase/auth';
 const Signup = () => {
     const { createUser, googleProvider } = useContext(AuthContext);
     const provider = new GoogleAuthProvider();
+    const navigate = useNavigate();
     const handleGoogleLogIn = () => {
         googleProvider(provider)
             .then((result) => {
@@ -29,6 +30,7 @@ const Signup = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user)
+                navigate('/home')
                 
             })
             .catch(error => console.error(error.message))

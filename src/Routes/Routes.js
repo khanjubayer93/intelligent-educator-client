@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import Signup from "../Pages/Signup/Signup";
 import TuitionDetails from "../Pages/TuitionDetails/TuitionDetails";
+import PrivateRouts from "./PrivateRouts";
 
 const router = createBrowserRouter([
     {
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/details/:id',
-                element: <TuitionDetails></TuitionDetails>,
+                element: <PrivateRouts><TuitionDetails></TuitionDetails></PrivateRouts>,
                 loader: ({ params }) => fetch(`https://intelligent-educator-server.vercel.app/subjects/${params.id}`)
             },
         ]
